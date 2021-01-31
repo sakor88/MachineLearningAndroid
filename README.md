@@ -19,3 +19,6 @@ Możemy tam zrobić własne zdjęcie, które zostanie przeskalowane do formatu 1
 
 Poza tym możemy zmienić source image obiektu "owoc" ImageView na jeden z obrazów z fruits-360 i klikając process pojawi nam się klasyfikacja jako toast message.
 
+https://ibb.co/854JLnZ (to grejpfrut ale blisko)
+https://ibb.co/NCqnQBZ (poprawna klasyfikacja)
+
