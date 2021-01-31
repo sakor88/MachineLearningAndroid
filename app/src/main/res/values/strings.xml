@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Fruit Classifier</string>
+    <string name="photo">Take a photo!</string>
+</resources>
