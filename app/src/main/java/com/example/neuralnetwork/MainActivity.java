@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
     public String neuroclassifier(Bitmap x){
         Tensor inpTens = TensorImageUtils.bitmapToFloat32Tensor(x,TensorImageUtils.TORCHVISION_NORM_MEAN_RGB, TensorImageUtils.TORCHVISION_NORM_MEAN_RGB);
         Module model;
-        model = Module.load(Utils.assetsFile(this, "nowymodelessa.pt"));
+        model = Module.load(Utils.assetsFile(this, "nowymodelandroid.pt"));
         IValue input = IValue.from(inpTens);
         Tensor output = model.forward(input).toTensor();
         float[] scores = output.getDataAsFloatArray();
